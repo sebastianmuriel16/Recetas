@@ -13,7 +13,7 @@
         const divInstrucciones = document.createElement('div')
         const h2 =document.createElement('h2')
         const img = document.createElement('img')
-        const p = document.createElement('div')
+        const p = document.createElement('p')
 
         div.setAttribute('class', 'Contenedor-Tarjeta')
         div.onclick = () => mostrarReceta(divInstrucciones)
